@@ -64,8 +64,6 @@ else if(playerInput == '3'){
 }
 printMessage('Twój ruch to: ' + playerMove);*/
 
-let playerMove = displayResult;
-
 console.log('moves:', argComputerMove, argPlayerMove);
 
 function displayResult(argComputerMove, argPlayerMove){
