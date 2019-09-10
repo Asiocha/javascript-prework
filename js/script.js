@@ -1,8 +1,4 @@
-function playGame(){
-
 let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
-
-clearMessages ();
 
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 
@@ -65,5 +61,3 @@ console.log('moves:', argComputerMove, argPlayerMove);
       printMessage('Tym razem przegrywasz :(');
     }
   }
-}
-playGame(3);
