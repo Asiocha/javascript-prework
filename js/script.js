@@ -10,7 +10,7 @@ function playGame(playerInput) {
 
   const computerMove = getMoveName(randomNumber);
 
-  function getMoveName(argMoveId) {
+function getMoveName(argMoveId) {
     if (argMoveId == 1) {
       return 'kamień';
     } else if (argMoveId == 2) {
@@ -29,7 +29,7 @@ function playGame(playerInput) {
 
   const playerMove = getMoveName(randomNumber);
 
-  function getMoveName(argMoveId) {
+function getMoveName(argMoveId) {
     if (argMoveId == 1) {
       return 'kamień';
     } else if (argMoveId == 2) {
@@ -41,7 +41,7 @@ function playGame(playerInput) {
     return 'nieznany ruch';
   }
 
-  function displayResult(argComputerMove, argPlayerMove) {
+function displayResult(argComputerMove, argPlayerMove) {
 
     console.log('moves:', argComputerMove, argPlayerMove);
 
